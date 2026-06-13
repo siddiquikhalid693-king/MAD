@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57634954978",
+    "project_id": "newproject-8a1e7",
+    "storage_bucket": "newproject-8a1e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57634954978:android:b7ba2cb08c69cdf1e688bb",
+        "android_client_info": {
+          "package_name": "com.techiguru.newproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuODR3YM3g2dVM1ZTtmVMPGb8nmsMT03U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

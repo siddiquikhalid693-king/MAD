@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">FitPlanner AI</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Login to your FitPlanner AI account</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_prompt">Don\'t have an account? Register</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join FitPlanner AI today</string>
+    <string name="name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_prompt">Already have an account? Login</string>
+    <string name="error_name_required">Full name is required</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_email_exists">User with this email already exists</string>
+    <string name="registration_success">Registration successful!</string>
+    <string name="registration_failed">Registration failed. Please try again.</string>
+
+    <!-- User Profile Strings -->
+    <string name="profile_title">User Profile</string>
+    <string name="profile_subtitle">Tell us about yourself to personalize your plan</string>
+    <string name="age_hint">Age</string>
+    <string name="gender_hint">Gender</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="weight_hint">Current Weight (kg)</string>
+    <string name="target_weight_hint">Target Weight (kg)</string>
+    <string name="activity_level_hint">Activity Level</string>
+    <string name="fitness_goal_hint">Fitness Goal</string>
+    <string name="diet_type_hint">Diet Type</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="profile_saved_success">Profile saved successfully!</string>
+    <string name="profile_save_failed">Failed to save profile.</string>
+
+    <!-- BMI Calculator Strings -->
+    <string name="bmi_title">BMI Calculator</string>
+    <string name="bmi_subtitle">Check your Body Mass Index</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="bmi_result_title">Your Result</string>
+    <string name="bmi_value_label">BMI Value</string>
+    <string name="bmi_category_label">Category</string>
+    <string name="healthy_weight_label">Healthy Weight Range</string>
+    <string name="water_intake_label">Daily Water Intake</string>
+    <string name="continue_to_home">Continue to Home</string>
+    <string name="error_invalid_input">Please enter valid values</string>
+
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obese">Obese</string>
+
+    <!-- Home Dashboard Strings -->
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="your_summary">Your Summary</string>
+    <string name="current_weight_label">Current</string>
+    <string name="target_weight_label">Target</string>
+    <string name="goal_label">Goal</string>
+    <string name="diet_plan_title">Diet Plan</string>
+    <string name="workout_plan_title">Workout Plan</string>
+    <string name="progress_tracker_title">Progress</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Diet Plan Strings -->
+    <string name="diet_plan_header">Your Diet Plan</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="mid_morning_snack">Mid-Morning Snack</string>
+    <string name="lunch">Lunch</string>
+    <string name="evening_snack">Evening Snack</string>
+    <string name="dinner">Dinner</string>
+    <string name="water_intake">Water Intake</string>
+    <string name="generate_ai_plan">Generate AI Diet Plan</string>
+    <string name="refresh_plan">Refresh Diet Plan</string>
+
+    <!-- Workout Plan Strings -->
+    <string name="workout_plan_header">Workout Schedule</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="rest_day">Rest Day</string>
+
+    <!-- Progress Strings -->
+    <string name="progress_header">Progress Tracker</string>
+    <string name="log_weight_title">Log Your Weight</string>
+    <string name="weight_difference_label">Weight Diff</string>
+    <string name="goal_completion_label">Goal Completion</string>
+    <string name="weight_history_title">Weight History</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="weight_entry_success">Weight logged successfully!</string>
+    <string name="reset_history">Reset History</string>
+    <string name="confirm_reset_title">Reset Weight History</string>
+    <string name="confirm_reset_message">Are you sure you want to delete all weight history?</string>
+    <string name="history_cleared_success">Weight history cleared successfully.</string>
+    <string name="weight_lost">Weight Lost</string>
+    <string name="weight_gained">Weight Gained</string>
+    <string name="remaining">Remaining</string>
+    <string name="starting">Starting</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="activity_level_options">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+    </string-array>
+
+    <string-array name="fitness_goal_options">
+        <item>Weight Loss</item>
+        <item>Weight Gain</item>
+        <item>Muscle Gain</item>
+        <item>Maintain Fitness</item>
+    </string-array>
+
+    <string-array name="diet_type_options">
+        <item>Vegetarian</item>
+        <item>Non Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <!-- Settings Strings -->
+    <string name="settings_header">Settings</string>
+    <string name="section_profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="section_ai_settings">AI Settings</string>
+    <string name="ai_model_label">Current AI Model</string>
+    <string name="api_status_label">API Status</string>
+    <string name="api_connected">Connected</string>
+    <string name="api_disconnected">Disconnected</string>
+    <string name="section_data_management">Data Management</string>
+    <string name="clear_diet_cache">Clear Cached Diet Plans</string>
+    <string name="clear_workout_cache">Clear Cached Workout Plans</string>
+    <string name="confirm_clear_diet_message">Are you sure you want to clear all cached diet plans?</string>
+    <string name="confirm_clear_workout_message">Are you sure you want to clear all cached workout plans?</string>
+    <string name="diet_cache_cleared">Diet cache cleared successfully.</string>
+    <string name="workout_cache_cleared">Workout cache cleared successfully.</string>
+    <string name="section_about">About</string>
+    <string name="app_name_label">App Name</string>
+    <string name="app_version_label">Version</string>
+    <string name="app_version_value">1.0.0</string>
+    <string name="developer_label">Developer</string>
+    <string name="developer_value">FitPlanner Team</string>
+    <string name="logout_button">Logout</string>
+    <string name="confirm_logout_title">Logout</string>
+    <string name="confirm_logout_message">Are you sure you want to logout?</string>
+</resources>
